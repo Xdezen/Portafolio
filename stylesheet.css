@@ -15,11 +15,13 @@ body{
     background-color: #091b29;
     color: #ededed;
     flex-wrap: wrap;
+    min-width: 300px;
 
 }
 
 .header {
     position: fixed;
+    min-width: 300px;
     top: 0;
     left: 0;
     width: 100%;
@@ -34,6 +36,7 @@ body{
 
 .logo{
     flex-wrap: wrap;
+    min-width: 300px;
     font-size: 25px;
     color: #ededed;
     text-decoration: none;
@@ -42,6 +45,7 @@ body{
 
 .navbar a {
     flex-wrap: wrap;
+    min-width: 300px;
     font-size: 18px;
     color: #ededed;
     text-decoration: none;
@@ -56,6 +60,7 @@ body{
 
 .home {
     flex-wrap: wrap;
+    min-width: 300px;
     height: 100vh;
     background: url(Proyecto\ nuevo.png) no-repeat;
     background-size: cover;
